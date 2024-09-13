@@ -1,0 +1,167 @@
+/* Add general styles for better layout */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style for the header section */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  
+  .header img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    color: #1a202c;
+  }
+  
+  /* Style for admin info section */
+  .admin-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .admin-info h1 {
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .admin-info .admin-name {
+    font-size: 1.25rem;
+  }
+  
+  .admin-info .logout-btn {
+    color: #e53e3e;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 1.25rem;
+  }
+  
+  /* Style for the sidebar menu */
+  .sidebar {
+    width: 300px;
+    background-color: #2d3748;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar button {
+    background-color: #4a5568;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .sidebar button.active {
+    background-color: #3182ce;
+  }
+  
+  /* Style for the main content area */
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: auto;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #2d3748;
+    color: #fff;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  th {
+    cursor: pointer;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background-color: #3182ce;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 5px;
+  }
+  
+  .pagination button:disabled {
+    background-color: #e2e8f0;
+    cursor: not-allowed;
+  }
+  
+  /* Modal Styles */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    text-align: center;
+  }
+  

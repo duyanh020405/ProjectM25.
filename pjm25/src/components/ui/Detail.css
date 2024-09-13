@@ -1,0 +1,23 @@
+/* Add to your global CSS file or a specific CSS module for detailProduct */
+.product-detail-container {
+    padding: 2rem;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-info {
+    margin-top: 1rem;
+  }
+  
+  .buy-now-button {
+    background-color: #1d4ed8;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  

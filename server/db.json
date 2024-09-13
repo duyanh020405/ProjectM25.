@@ -1,0 +1,536 @@
+{
+  "admin": {
+    "email": "duyanh2005@gmail.com",
+    "password": "duyanh2005@gmail.com"
+  },
+  "contacts": [
+    {
+      "name": "lạc trôi",
+      "email": "bui0913291882@gmail.com",
+      "message": "duy anh",
+      "id": 1
+    },
+    {
+      "name": "Duy Anh",
+      "email": "bui0913291882@gmail.com",
+      "message": "duy anh dep trai vai",
+      "id": 2
+    },
+    {
+      "name": "Duy Anh",
+      "email": "bui0913291882@gmail.com",
+      "message": "ddd",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "comments": {
+        "User_comment": "Duy Anh",
+        "comment": "cung okeee"
+      },
+      "id": 1
+    },
+    {
+      "comments": {
+        "User_comment": "Duy Anh",
+        "comment": "okeeeee cung on\n",
+        "idProduct": "bvz46yymi"
+      },
+      "id": 2
+    }
+  ],
+  "user": [
+    {
+      "id": "x4xz5xfxx",
+      "name": "Duy Anh Đẹp trai",
+      "email": "duyanh@gmail.com",
+      "password": "12345678",
+      "confirmPassword": "12345678",
+      "address": "Hà Nội",
+      "card": [],
+      "buy": [],
+      "like": [],
+      "blocked": false
+    },
+    {
+      "id": "73ur6irzl",
+      "name": "lạc trôi",
+      "email": "bui0913291882@gmail.com",
+      "password": "123456789",
+      "confirmPassword": "123456789",
+      "address": "",
+      "card": [],
+      "like": [],
+      "buy": [],
+      "blocked": false
+    },
+    {
+      "id": "a1b2c3d4",
+      "name": "Nguyen Van A",
+      "email": "nguyenvana@example.com",
+      "password": "password123",
+      "confirmPassword": "password123",
+      "address": "Hanoi, Vietnam",
+      "like": [],
+      "card": [],
+      "buy": [],
+      "blocked": false
+    },
+    {
+      "id": "b5c6d7e8",
+      "name": "Le Thi B",
+      "email": "lethib@example.com",
+      "password": "password456",
+      "confirmPassword": "password456",
+      "address": "Ho Chi Minh City, Vietnam",
+      "card": [],
+      "buy": [],
+      "blocked": false
+    },
+    {
+      "id": "c9d0e1f2",
+      "name": "Tran Van C",
+      "email": "tranvanc@example.com",
+      "password": "pass789",
+      "confirmPassword": "pass789",
+      "address": "Da Nang, Vietnam",
+      "card": [],
+      "buy": [],
+      "blocked": false,
+      "block": false
+    },
+    {
+      "id": "c9d0e1f2",
+      "name": "Tran Van C",
+      "email": "tranvanc@example.com",
+      "password": "pass789",
+      "confirmPassword": "pass789",
+      "address": "Da Nang, Vietnam",
+      "card": [],
+      "buy": [],
+      "blocked": false
+    },
+    {
+      "id": "g3h4i5j6",
+      "name": "Pham Thi D",
+      "email": "phamthid@example.com",
+      "password": "pass987",
+      "confirmPassword": "pass987",
+      "address": "Can Tho, Vietnam",
+      "card": [],
+      "buy": [],
+      "blocked": false
+    },
+    {
+      "id": "9jfy7jdn",
+      "name": "Existing User",
+      "email": "existing@example.com",
+      "password": "existingpass",
+      "confirmPassword": "existingpass",
+      "address": "Existing Address",
+      "card": [],
+      "buy": [],
+      "blocked": false
+    },
+    {
+      "id": "rie0leom9",
+      "name": "Duy Anh",
+      "email": "duyanh@gmail.com",
+      "password": "123456789",
+      "confirmPassword": "123456789",
+      "address": "Làng Vũ Đại",
+      "phone": "0987466454",
+      "card": [],
+      "like": [
+        "cd6ef9ghi",
+        "yz2ab4c5d",
+        "epdt527jy",
+        "bvz46yymi",
+        "yhd4w2sd9"
+      ],
+      "buy": [
+        {
+          "id": "yhd4w2sd9",
+          "quantityBuy": 1
+        }
+      ],
+      "blocked": false,
+      "alertEnabled": true
+    }
+  ],
+  "products": [
+    {
+      "id": "bvz46yymi",
+      "name": "Áo dù trơn",
+      "price": "11",
+      "img": "https://th.bing.com/th/id/OIP.6GU05o6ighdbHA1vtUGPrQHaHa?rs=1&pid=ImgDetMain",
+      "size": [
+        "S",
+        "M",
+        "2XL",
+        "3XL",
+        "XL",
+        "L",
+        "4XL",
+        "5XL"
+      ],
+      "quantity": "999",
+      "category": "Áo khoác dù",
+      "description": "123445"
+    },
+   
+    {
+      "id": "yhd4w2sd9",
+      "name": "Quần jean",
+      "price": "45",
+      "img": "https://th.bing.com/th/id/OIP.md9V8_8HWyY7JqBroneX-AHaJ4?rs=1&pid=ImgDetMain",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "quantity": 199,
+      "category": "Quần jean kaki",
+      "description": "Quần jean nam, chất liệu denim bền bỉ, phong cách trẻ trung."
+    },
+    {
+      "id": "za8dk3q2a",
+      "name": "Áo sơ mi dài tay",
+      "price": "60",
+      "img": "https://th.bing.com/th/id/R.180fee90c7b57dfd5a1ea5d2a62cf68c?rik=G95fuMHW5481Ag&pid=ImgRaw&r=0",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "quantity": "80",
+      "category": "Áo sơ mi dài",
+      "description": "Áo sơ mi dài tay, chất liệu vải cao cấp, thiết kế lịch sự."
+    },
+    {
+      "id": "vb7sq3q9b",
+      "name": "Áo khoác gió",
+      "price": "55",
+      "img": "https://th.bing.com/th/id/OIP.taDGeA8Gt5REiWVgTWHYGwHaHa?rs=1&pid=ImgDetMain",
+      "size": [
+        "M",
+        "L"
+      ],
+      "quantity": "120",
+      "category": "Áo khoác kaki",
+      "description": "Áo khoác gió, chống nước, phù hợp cho mùa thu đông."
+    },
+    {
+      "id": "vc5er4t2f",
+      "name": "Áo khoac kaki real ",
+      "price": "70",
+      "img": "https://th.bing.com/th/id/R.b157685df1fcc33897e712c695664f75?rik=3ScAASUhnXq02Q&pid=ImgRaw&r=0",
+      "size": [
+        "L",
+        "XL"
+      ],
+      "quantity": "95",
+      "category": "Áo khoác kaki",
+      "description": "Áo khoác kaki ấm áp, phù hợp cho những ngày lạnh giá."
+    },
+    {
+      "id": "ld6fq2r5g",
+      "name": "Quần short kaki đen",
+      "price": "40",
+      "img": "https://th.bing.com/th/id/OIP.BD4XGJFGsJKAAwWzr4K_ZAHaHa?rs=1&pid=ImgDetMain",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "quantity": "160",
+      "category": "Quần short vải",
+      "description": "Quần kaki, chất liệu mềm mại, phù hợp cho cả công việc và dạo phố."
+    },
+    {
+      "id": "mn9kj6p3w",
+      "name": "Áo thun dài tay",
+      "price": "30",
+      "img": "https://th.bing.com/th/id/OIP.gIibuz0MTdGE-6t1dy0d2gHaJ4?rs=1&pid=ImgDetMain",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "quantity": "140",
+      "category": "Áo thun dài tay",
+      "description": "Áo thun dài tay, giữ ấm tốt cho mùa thu."
+    },
+    {
+      "id": "op2lo5v4a",
+      "name": "Áo playze nam đen",
+      "price": "85",
+      "img": "https://th.bing.com/th/id/R.618748655ab95926500392a0a8fac442?rik=C5TvMTPT1w5w5w&pid=ImgRaw&r=0",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "quantity": "60",
+      "category": "Playzer nam",
+      "description": "Áo vest sang trọng, phù hợp cho các sự kiện đặc biệt."
+    },
+    {
+      "id": "pq3rm7u5b",
+      "name": "Quần vải",
+      "price": "50",
+      "img": "https://th.bing.com/th/id/OIP.iZKhnhFVj7h-dFAT7RdgoQHaHa?rs=1&pid=ImgDetMain",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "quantity": "110",
+      "category": "Quần vải ",
+      "description": "Quần vải mềm mại, thoải mái cho cả ngày dài."
+    },
+    {
+      "id": "rs6st8c7d",
+      "name": "Áo sơ mi ngắn tay",
+      "price": "35",
+      "img": "https://th.bing.com/th/id/R.d8f46ff9918876a5dc1eab29051c7b1f?rik=CRuuwAB%2fVMfasA&pid=ImgRaw&r=0",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "quantity": "150",
+      "category": "Áo sơ mi ngắn tay",
+      "description": "Áo sơ mi ngắn tay, chất liệu nhẹ nhàng, thích hợp cho mùa hè."
+    },
+    {
+      "id": "tu9vx1k2e",
+      "name": "Áo sơ mi trắng",
+      "price": "50",
+      "img": "https://th.bing.com/th/id/OIP.mbIftKpSIukDG9N-HNy1nAHaKA?rs=1&pid=ImgDetMain",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "quantity": "90",
+      "category": "Áo sơ mi ngắn tay",
+      "description": "Áo sơ mi trắng tinh khôi, phù hợp cho các buổi tiệc và sự kiện."
+    },
+    {
+      "id": "vw0yz2a3f",
+      "name": "Áo thun polo",
+      "price": "40",
+      "img": "https://th.bing.com/th/id/OIP.uJHH-yEcAI-u8bidsmbSjwHaHa?rs=1&pid=ImgDetMain",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "quantity": "130",
+      "category": "Áo thun polo",
+      "description": "Áo thun polo, phong cách thể thao, phù hợp cho hoạt động ngoài trời."
+    },
+    {
+      "id": "xy1zw3b4c",
+      "name": "Quần short",
+      "price": "30",
+      "img": "https://ann.com.vn/wp-content/uploads/21429-z4716121042518-003d88cc31273e09f91aeb3b51b4c3aa.png",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "quantity": "120",
+      "category": "Quần short kaki",
+      "description": "Quần short thoáng mát, lý tưởng cho mùa hè."
+    },
+    {
+      "id": "yz2ab4c5d",
+      "name": "Áo khoác dù denim",
+      "price": "70",
+      "img": "https://th.bing.com/th/id/OIP.eWtU4QgGv_VFTdusSt3FQAHaHa?rs=1&pid=ImgDetMain",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "quantity": "80",
+      "category": "Áo khoác dù",
+      "description": "Áo khoác dù denim cá tính, phong cách."
+    },
+    {
+      "id": "za3bc6d7e",
+      "name": "Áo sơ mi kẻ sọc",
+      "price": "45",
+      "img": "https://th.bing.com/th/id/OIP.C6HfvfD2tXP8n2MHccI9vgHaJ4?rs=1&pid=ImgDetMain",
+      "size": [
+        "M",
+        "L"
+      ],
+      "quantity": "100",
+      "category": "Áo sơ mi dài tay",
+      "description": "Áo sơ mi kẻ sọc, thiết kế trẻ trung, hiện đại."
+    },
+    {
+      "id": "ab4cd7efg",
+      "name": "Quần âu",
+      "price": "55",
+      "img": "https://th.bing.com/th/id/OIP.0aJRTOhCsl0cLJT_hJFTVAHaLH?rs=1&pid=ImgDetMain",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "quantity": "90",
+      "category": "Quần vải",
+      "description": "Quần âu, chất liệu vải cao cấp, phù hợp cho môi trường làm việc."
+    },
+    {
+      "id": "bc5de8fgh",
+      "name": "Áo thun basic",
+      "price": "20",
+      "img": "https://4men.com.vn/thumbs/2017/10/ao-thun-do-do-at820-7599-p.jpg",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "quantity": "200",
+      "category": "Áo thun ngắn",
+      "description": "Áo thun cơ bản, dễ phối đồ, chất liệu thoáng mát."
+    },
+    {
+      "id": "cd6ef9ghi",
+      "name": "Áo khoác dù kami xám",
+      "price": "65",
+      "img": "https://th.bing.com/th/id/R.c853b7ec0bf94f24f29d4626f2049725?rik=eWdaAZjjw%2bApeQ&pid=ImgRaw&r=0",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "quantity": "70",
+      "category": "Áo khoác dù",
+      "description": "Áo khoác dù kaki xám  thời trang, phù hợp cho các dịp đi chơi."
+    },
+    {
+      "id": "de7fg0hij",
+      "name": "Áo thun in hình doremon",
+      "price": "25",
+      "img": "https://th.bing.com/th/id/OIP.5QbxVqFMoPtcavWXAlVilwHaHa?rs=1&pid=ImgDetMain",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "quantity": "180",
+      "category": "Áo thun ngắn tay",
+      "description": "Áo thun in hình độc đáo, phù hợp với phong cách cá nhân."
+    },
+    {
+      "id": "ef8gh1ijk",
+      "name": "Áo sơ mi cổ đức",
+      "price": "50",
+      "img": "https://savani.vn/images/products/2022/07/29/large/ao-so-mi-nam-mls003-2w0011-1_1659090152.jpg",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "quantity": "110",
+      "category": "Áo sơ mi dài tay",
+      "description": "Áo sơ mi cổ đức, thiết kế thanh lịch, sang trọng."
+    },
+    {
+      "id": "fg9hi2jkl",
+      "name": "Áo cardigan",
+      "price": "60",
+      "img": "https://th.bing.com/th/id/OIP.CCKTlrxsLDCrxSmh5tr6sgHaFz?rs=1&pid=ImgDetMain",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "quantity": "85",
+      "category": "Áo khoác nỉ",
+      "description": "Áo cardigan ấm áp, dễ phối với nhiều loại trang phục."
+    },
+    {
+      "id": "gh0ij3klm",
+      "name": "Quần jogger kaki",
+      "price": "50",
+      "img": "https://th.bing.com/th/id/R.cd6a1f41a80425ff9d1a5da65e7cce0b?rik=epClrj%2fbj%2b40nA&pid=ImgRaw&r=0",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "quantity": "130",
+      "category": "Quần kaki",
+      "description": "Quần jogger thể thao, thoải mái cho các hoạt động ngoài trời."
+    },
+    {
+      "id": "hi1jk4lmn",
+      "name": "Áo thun xanh lá",
+      "price": "85",
+      "img": "https://th.bing.com/th/id/OIP.k-Rhcl_CKL3-mK3QJHFxgwHaHa?rs=1&pid=ImgDetMain",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "quantity": "50",
+      "category": "Áo thun ngắn tay",
+      "description": "Áo thun nam, chất liệu vải cao cấp, thích hợp cho các buổi tiệc."
+    },
+    {
+      "id": "jk3lm6nop",
+      "name": "Áo sơ mi hoa",
+      "price": "55",
+      "img": "https://th.bing.com/th/id/OIP.XUi4Oqdwp9RXwUGBT220hQHaJh?rs=1&pid=ImgDetMain",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "quantity": "90",
+      "category": "Áo sơ mi ngắn tay",
+      "description": "Áo sơ mi hoa, thiết kế trẻ trung, năng động."
+    },
+    {
+      "id": "kl4mn7opq",
+      "name": "Quần short kaki",
+      "price": "35",
+      "img": "https://th.bing.com/th/id/R.d7130f55a9db8d11921765b382acedb2?rik=dmPrDuyYv0vFBg&riu=http%3a%2f%2fwww.harasdegassin.com%2fwp-content%2fuploads%2f2016%2f06%2fShortsMan-Kaki-1.jpg&ehk=dxPXYAkk5G3SZkjGF%2fiMjB8W7TxEoOIM%2baeYqQ19ZCI%3d&risl=&pid=ImgRaw&r=0",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "quantity": "110",
+      "category": "Quần vải",
+      "description": "Quần short kaki, chất liệu bền bỉ, thích hợp cho mùa hè."
+    },
+    {
+      "id": "lm5no8pqr",
+      "name": "Áo thun cổ tròn tím",
+      "price": "20",
+      "img": "https://4men.com.vn/images/thumbs/2017/10/ao-thun-do-do-at716-9144-slide-products-59da44e30c3a4.jpg",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "quantity": "200",
+      "category": "Áo thun ngắn tay",
+      "description": "Áo thun cổ tròn, đơn giản nhưng phong cách."
+    }
+  ]
+}

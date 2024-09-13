@@ -1,0 +1,14 @@
+/* In your global CSS or the corresponding CSS module */
+.select-trigger, .select-content {
+    background-color: black;
+    color: white;
+}
+
+.select-item {
+    background-color: black;
+    color: white;
+}
+
+.select-item:hover {
+    background-color: gray;
+}
